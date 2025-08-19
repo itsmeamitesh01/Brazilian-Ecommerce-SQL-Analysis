@@ -1,5 +1,5 @@
-# brazilian-ecommerce-sql-analysis
-
+# Brazilian E-commerce SQL Analysis
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ### Author: Amitesh Singh | <a href="https://www.linkedin.com/in/amiteshsingh2001/">LinkedIn</a>
 
 
