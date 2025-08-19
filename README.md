@@ -1,6 +1,6 @@
 # brazilian-ecommerce-sql-analysis
 
-### Author: [Amitesh Singh] | <a href="https://www.linkedin.com/in/amiteshsingh2001/">LinkedIn</a>
+### Author: Amitesh Singh | <a href="https://www.linkedin.com/in/amiteshsingh2001/">LinkedIn</a>
 
 
 ---
