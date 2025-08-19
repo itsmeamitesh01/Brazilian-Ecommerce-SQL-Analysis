@@ -155,11 +155,12 @@ Here are the four key analyses performed in this project:
         p.product_category_name
     ORDER BY 
         total_payment DESC
-    LIMIT 15;
+    LIMIT 5;
     ```
 * **Finding:**
 
-    <img width="384" height="433" alt="{C4E6E5A2-ED3A-4D36-B704-6C8DD71C43BA}" src="https://github.com/user-attachments/assets/e3c488a5-b9f0-45c6-8edf-dbf72222df95" />
+    <img width="385" height="161" alt="{1A26702F-E94F-4A9B-BADF-00DA764D97A9}" src="https://github.com/user-attachments/assets/0877538b-4a1c-4dcd-97d9-8818dc06fec8" />
+
 
 * **Insight:** The analysis reveals a significant concentration of revenue in a few key areas. The top 3 categories alone—beleza_saude (health/beauty), relogios_presentes (watches/gifts), and cama_mesa_banho (bed/bath/table)—generated over $3.9 million in revenue, establishing them as the financial core of the business.
 * **Recommendation:** These categories should be prioritized for inventory management, marketing spend, and strategic partnerships to ensure their continued growth.
@@ -244,15 +245,20 @@ Here are the four key analyses performed in this project:
     
     <img width="744" height="432" alt="{13172C85-3F2B-4033-B8DE-74818E88B2F3}" src="https://github.com/user-attachments/assets/d8b6498e-3690-4852-bb7e-6a8c249f0bab" />
 
-* **Insight:** This query provides a hyper-specific list of 15 "hero products" that are the core of our business.
+* **Insight:** By combining category-level revenue analysis with product-level sales volume, this analysis moves beyond high-level trends to pinpoint the 15 individual 'hero products' that are the true financial engines of our most important business segments. These are our "**crown jewel products**."
 * **Recommendation:** This list should be given directly to the marketing team for immediate inclusion in "Bestseller" campaigns and to the inventory team to ensure these critical products are never out of stock.
 
 ---
 
-## 4. Interactive Dashboard
+## 4. Interactive Dashboard [**[Link]**](https://lookerstudio.google.com/reporting/dae8637b-c91e-4a04-b64c-c2371deec7cf)
 
-An interactive dashboard summarizing these key findings was built using [Tool Name - e.g., Google Looker Studio]. It allows stakeholders to explore the data dynamically.
+A comprehensive, interactive dashboard was developed in Google Looker Studio to consolidate all project findings into a single source of truth for stakeholders.
 
-*(Here, you will paste a screenshot of your final dashboard once it's built)*
+The dashboard visualizes the core insights from the analysis, including the financial impact of customer loyalty, the operational drivers of customer satisfaction, and a breakdown of top-performing product lines. An interactive filter allows for the entire report to be viewed on a state-by-state basis, providing granular insights into regional performance.
 
-**[Link to your Public Dashboard Here]**
+
+
+<img width="1240" height="924" alt="{4C68EFAC-2F50-44B9-8E23-2492EAF4C6AC}" src="https://github.com/user-attachments/assets/d56de82d-f8b5-45d4-badb-18ba86318748" />
+
+
+
