@@ -1,3 +1,22 @@
+/*************************************************************************************************
+-- PROJECT: Brazilian E-commerce SQL Analysis
+-- SCRIPT: 02_delivery_impact_analysis.sql
+-- DESCRIPTION: This script analyzes the impact of shipping delays on customer satisfaction.
+--              It calculates the difference between estimated and actual delivery dates
+--              and correlates these delays with customer review scores.
+-- BUSINESS QUESTION:
+--    - How much do shipping delays affect customer review scores?
+-- METHODOLOGY:
+--    1.  [CTE: time_diff]: Calculates the shipping delay in days for each delivered order.
+--    2.  [CTE: delay_segments]: Categorizes each order into segments ('On Time or Early',
+--        'Slightly Late', 'Very Late') based on the delay.
+--    3.  The final query joins with the reviews table and calculates the average review score
+--        for each delay segment, proving the relationship between timeliness and satisfaction.
+-- AUTHOR: Amitesh Kumar Singh
+-- DATE: September 10, 2025
+*************************************************************************************************/
+
+
 WITH time_diff AS (
 SELECT 
     order_id, 
