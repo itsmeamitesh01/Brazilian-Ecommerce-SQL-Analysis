@@ -1,3 +1,23 @@
+/*************************************************************************************************
+-- PROJECT: Brazilian E-commerce SQL Analysis
+-- SCRIPT: 03_hero_product_ranking.sql
+-- DESCRIPTION: This advanced script identifies the top 3 "hero products" within each of the
+--              top 5 highest-revenue product categories. The output is a prioritized list
+--              of 15 items perfect for targeted marketing and inventory management.
+-- BUSINESS QUESTIONS:
+--    - Within our most valuable product categories, which specific products are the best-sellers?
+-- METHODOLOGY:
+--    1.  [CTE: top_category]: First, identifies the top 5 product categories by total net revenue
+--        from successfully 'delivered' orders.
+--    2.  [CTE: top_product]: Calculates the total sales volume for every product.
+--    3.  [CTE: ranking]: Uses the ROW_NUMBER() window function to rank products by sales volume,
+--        partitioned by their category, but only for categories identified in the first step.
+--    4.  The final query filters these results to show only the top 3 ranked products per category.
+-- AUTHOR: Amitesh Kumar Singh
+-- DATE: September 10, 2025
+*************************************************************************************************/
+
+
 WITH top_category AS (
 SELECT 
     p.product_category_name, 
