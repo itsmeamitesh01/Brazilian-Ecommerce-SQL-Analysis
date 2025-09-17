@@ -1,4 +1,4 @@
-# Brazilian E-commerce: A Deep-Dive SQL Analysis [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# E-commerce: A Deep-Dive SQL Analysis [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ### Author: Amitesh Singh | [LinkedIn](https://www.linkedin.com/in/amiteshsingh2001/) | [Portfolio](https://sites.google.com/view/amitesh-singh-analytics)
 ---
 
